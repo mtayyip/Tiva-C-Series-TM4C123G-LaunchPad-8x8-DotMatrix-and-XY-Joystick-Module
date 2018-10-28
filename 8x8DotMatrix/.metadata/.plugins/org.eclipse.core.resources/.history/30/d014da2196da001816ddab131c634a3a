@@ -1,0 +1,140 @@
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include "inc/hw_memmap.h"
+#include "inc/hw_types.h"
+#include "inc/hw_ints.h"
+#include "driverlib/gpio.h"
+#include "driverlib/pin_map.h"
+#include "driverlib/debug.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/ssi.h"
+
+/*8x8 MATRIX
+ * PA5 - DIN
+ * PA3 - CS
+ * PA2 - CLK*/
+void spi_write(uint16_t data)
+{
+    SSIDataPut(SSI0_BASE, data);
+    while (SSIBusy(SSI0_BASE))
+    {}
+    return;
+}
+
+
+void zero(){
+    spi_write(1<<8 | 0x3C); spi_write(2<<8 | 0x24);
+    spi_write(3<<8 | 0x24); spi_write(4<<8 | 0x24);
+    spi_write(5<<8 | 0x24); spi_write(6<<8 | 0x24);
+    spi_write(7<<8 | 0x24); spi_write(8<<8 | 0x3C);}
+
+void one(){
+    spi_write(1<<8 | 0x08); spi_write(2<<8 | 0x18);
+    spi_write(3<<8 | 0x28); spi_write(4<<8 | 0x08);
+    spi_write(5<<8 | 0x08); spi_write(6<<8 | 0x08);
+    spi_write(7<<8 | 0x08); spi_write(8<<8 | 0x3E);}
+
+void two(){
+    spi_write(1<<8 | 0x3C); spi_write(2<<8 | 0x04);
+    spi_write(3<<8 | 0x04); spi_write(4<<8 | 0x04);
+    spi_write(5<<8 | 0x3C); spi_write(6<<8 | 0x20);
+    spi_write(7<<8 | 0x20); spi_write(8<<8 | 0x3C);}
+
+void three(){
+    spi_write(1<<8 | 0x3C); spi_write(2<<8 | 0x04);
+    spi_write(3<<8 | 0x04); spi_write(4<<8 | 0x04);
+    spi_write(5<<8 | 0x3C); spi_write(6<<8 | 0x04);
+    spi_write(7<<8 | 0x04); spi_write(8<<8 | 0x3C);}
+
+void four(){
+    spi_write(1<<8 | 0x04); spi_write(2<<8 | 0x0C);
+    spi_write(3<<8 | 0x14); spi_write(4<<8 | 0x24);
+    spi_write(5<<8 | 0x24); spi_write(6<<8 | 0x3C);
+    spi_write(7<<8 | 0x04); spi_write(8<<8 | 0x04);}
+
+void five(){
+    spi_write(1<<8 | 0x3C); spi_write(2<<8 | 0x20);
+    spi_write(3<<8 | 0x20); spi_write(4<<8 | 0x20);
+    spi_write(5<<8 | 0x3C); spi_write(6<<8 | 0x04);
+    spi_write(7<<8 | 0x04); spi_write(8<<8 | 0x3C);}
+
+void six(){
+    spi_write(1<<8 | 0x3C); spi_write(2<<8 | 0x20);
+    spi_write(3<<8 | 0x20); spi_write(4<<8 | 0x20);
+    spi_write(5<<8 | 0x3C); spi_write(6<<8 | 0x24);
+    spi_write(7<<8 | 0x24); spi_write(8<<8 | 0x3C);}
+
+void seven(){
+    spi_write(1<<8 | 0x3C); spi_write(2<<8 | 0x04);
+    spi_write(3<<8 | 0x04); spi_write(4<<8 | 0x08);
+    spi_write(5<<8 | 0x10); spi_write(6<<8 | 0x20);
+    spi_write(7<<8 | 0x20); spi_write(8<<8 | 0x20);}
+
+void eight(){
+    spi_write(1<<8 | 0x18); spi_write(2<<8 | 0x24);
+    spi_write(3<<8 | 0x24); spi_write(4<<8 | 0x24);
+    spi_write(5<<8 | 0x18); spi_write(6<<8 | 0x24);
+    spi_write(7<<8 | 0x24); spi_write(8<<8 | 0x18);}
+
+void nine(){
+    spi_write(1<<8 | 0x3C); spi_write(2<<8 | 0x24);
+    spi_write(3<<8 | 0x24); spi_write(4<<8 | 0x24);
+    spi_write(5<<8 | 0x3C); spi_write(6<<8 | 0x04);
+    spi_write(7<<8 | 0x04); spi_write(8<<8 | 0x3C);}
+
+//8 4 2 1
+
+
+
+int main(void)
+{
+    uint32_t pui32DataRx;
+
+    SysCtlClockSet(SYSCTL_SYSDIV_4 | SYSCTL_USE_PLL | SYSCTL_OSC_MAIN | SYSCTL_XTAL_16MHZ);
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOE);
+
+
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF);
+    GPIOPinTypeGPIOInput(GPIO_PORTF_BASE,GPIO_PIN_0|GPIO_PIN_4 );
+    GPIOPadConfigSet(GPIO_PORTF_BASE,GPIO_PIN_0,GPIO_STRENGTH_2MA,GPIO_PIN_TYPE_STD_WPU);   // enable F4's pullup, the drive strength won't affect the input
+
+
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_SSI0);
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
+    GPIOPinConfigure(GPIO_PA2_SSI0CLK);
+    GPIOPinConfigure(GPIO_PA3_SSI0FSS);
+    GPIOPinConfigure(GPIO_PA5_SSI0TX);
+
+
+
+    GPIOPinTypeSSI(GPIO_PORTA_BASE, GPIO_PIN_5 | GPIO_PIN_3 | GPIO_PIN_2);
+    SSIConfigSetExpClk(SSI0_BASE, SysCtlClockGet(), SSI_FRF_MOTO_MODE_0,SSI_MODE_MASTER,1000000, 16);
+    SSIEnable(SSI0_BASE);
+    while (SSIDataGetNonBlocking(SSI0_BASE, &pui32DataRx)){}
+
+    spi_write(0x09 << 8 | 0x00);       //decoding ：BCD
+    spi_write(0x0a << 8 | 0x01);       //brightness
+    spi_write(0x0b << 8 | 0x07);       //scanlimit；8 LEDs
+    spi_write(0x0c << 8 | 0x01);       //power-down mode：0，normal mode：1
+    spi_write(0x0f << 8 | 0x00);       //test display：1；EOT，display：0
+
+    while(1){
+        /*zero();SysCtlDelay(SysCtlClockGet()/2);
+        one();SysCtlDelay(SysCtlClockGet()/2);
+        two();SysCtlDelay(SysCtlClockGet()/2);
+        three();SysCtlDelay(SysCtlClockGet()/2);
+        four();SysCtlDelay(SysCtlClockGet()/2);
+        five();SysCtlDelay(SysCtlClockGet()/2);
+        six();SysCtlDelay(SysCtlClockGet()/2);
+        seven();SysCtlDelay(SysCtlClockGet()/2);
+        eight();SysCtlDelay(SysCtlClockGet()/2);
+        nine();SysCtlDelay(SysCtlClockGet()/2);*/
+
+        printf("----------------------------");
+        int ret=GPIOPinRead(GPIO_PORTF_BASE,GPIO_PIN_0);
+        printf("%d \n",ret);
+
+    }
+
+}

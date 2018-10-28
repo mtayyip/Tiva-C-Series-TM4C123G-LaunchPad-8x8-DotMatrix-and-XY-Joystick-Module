@@ -1,0 +1,713 @@
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 28: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 38: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 48: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 28)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 21: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 31: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 41: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 21)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 29: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 19)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 29: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 19)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 25: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 31: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 37: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 43: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 49: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 55: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 61: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 67: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 73: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 79: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 19)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 25: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 31: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 37: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 43: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 49: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 55: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 61: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 67: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 73: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 79: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 19)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 25: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 31: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 37: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 43: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 49: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 55: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 61: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 67: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 73: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 79: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 19)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 25: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 31: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 37: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 43: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 49: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 55: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 61: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 67: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 73: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 79: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 19)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 25: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 31: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 37: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 43: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 49: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 55: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 61: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 67: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 73: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 79: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 19)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 19: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 25: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 31: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 37: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 43: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 49: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 55: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 61: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 67: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 73: warning #225-D: function "spi_write" declared implicitly
+"../main.c", line 79: warning #161-D: declaration is incompatible with previous "spi_write" (declared at line 19)
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=0 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'matrix.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 99: error #29: expected an expression
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 99: error #29: expected an expression
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 124: warning #225-D: function "ADCHardwareOversampleConfigure" declared implicitly
+"../main.c", line 125: warning #225-D: function "ADCSequenceDisable" declared implicitly
+"../main.c", line 126: warning #225-D: function "ADCSequenceConfigure" declared implicitly
+"../main.c", line 126: error #20: identifier "ADC_TRIGGER_PROCESSOR" is undefined
+"../main.c", line 127: warning #225-D: function "ADCSequenceStepConfigure" declared implicitly
+"../main.c", line 127: error #20: identifier "ADC_CTL_CH1" is undefined
+"../main.c", line 127: error #20: identifier "ADC_CTL_IE" is undefined
+"../main.c", line 127: error #20: identifier "ADC_CTL_END" is undefined
+"../main.c", line 128: warning #225-D: function "ADCSequenceEnable" declared implicitly
+"../main.c", line 147: warning #225-D: function "ADCIntClear" declared implicitly
+"../main.c", line 148: warning #225-D: function "ADCProcessorTrigger" declared implicitly
+"../main.c", line 149: warning #225-D: function "ADCIntStatus" declared implicitly
+"../main.c", line 150: warning #225-D: function "ADCSequenceDataGet" declared implicitly
+"../main.c", line 145: warning #179-D: variable "nemDegeri" was declared but never referenced
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 146: warning #179-D: variable "nemDegeri" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 146: warning #179-D: variable "nemDegeri" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 157: error #29: expected an expression
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'matrix.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project matrix ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Muhammet Tayyip/Desktop/TIVA C/8x8DotMatrix/matrix" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: matrix.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"matrix.map" --heap_size=512 --stack_size=0x1024 -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="matrix_linkInfo.xml" --rom_model -o "matrix.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: matrix.out'
+' '
+
+**** Build Finished ****
