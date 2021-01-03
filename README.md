@@ -5,3 +5,7 @@
   PA3 - CS
   
   PA2 - CLK
+
+
+# Video :
+https://www.youtube.com/watch?v=iP3yETNK-1k
